@@ -1,7 +1,7 @@
 name: Fetch reviews from App Store Connect and send to Slack
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "12 12 * * *"
   workflow_dispatch:
 
 jobs:
